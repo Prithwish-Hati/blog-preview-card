@@ -32,6 +32,16 @@ body {
   max-width: 300px;
 }
 
+.card:hover {
+  cursor: pointer;
+  box-shadow: 20px 20px 15px var(--black);
+}
+
+.card:active {
+  cursor: pointer;
+  box-shadow: none;
+}
+
 .card-image {
   width: 100%;
   border-radius: 1em;
@@ -69,6 +79,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 2em;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
